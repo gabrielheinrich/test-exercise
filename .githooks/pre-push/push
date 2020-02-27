@@ -1,0 +1,2 @@
+echo "Use ccl push instead";
+exit 1;
