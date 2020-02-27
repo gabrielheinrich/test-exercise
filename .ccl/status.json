@@ -1,0 +1,12 @@
+{
+  "steps": [
+    {
+      "title": "Create file",
+      "completed": true
+    },
+    {
+      "title": "Create directory",
+      "completed": false
+    }
+  ]
+}

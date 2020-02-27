@@ -11,3 +11,12 @@ exports.preFinish = () => {
     console.log("You did it!");
   }
 };
+
+exports.test = () => {
+  return {
+    steps: [
+      { completed: fs.existsSync("./check.json") },
+      { completed: fs.existsSync("./dir") }
+    ]
+  };
+};
